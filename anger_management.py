@@ -4,18 +4,6 @@
 import time
 import sys
 
-
-#      *       *
-#    *   *   *   *
-#   *      *     *
-#    *          *
-#     *        *
-#      *      *
-#       *    *
-#        *  *
-#         **
-
-
 def delay_print(s):
   for c in s:
     sys.stdout.write( '%s' % c )
